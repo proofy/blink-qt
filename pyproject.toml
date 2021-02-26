@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "blink-qt"
+version = "3.2."
+description = "Blink is the best real-time communications client using the SIP protocol."
+authors = ["You can use it with many SIP providers, on the LAN using Bonjour and with SIP2SIP, a free service."]
+license = "GPL-3"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
